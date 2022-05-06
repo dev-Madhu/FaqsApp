@@ -1,0 +1,52 @@
+/* Write your code here. */
+.list-item {
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 16px;
+  max-width: 1200px;
+  border-radius: 20px;
+  border: 1px solid #d7dae6;
+}
+.faq-question {
+  font-size: 30px;
+  font-weight: 700;
+  color: #52606d;
+}
+.question-part {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.show-icon {
+  height: 24px;
+  width: 24px;
+}
+@media screen and (min-width: 768px) {
+  .show-icon {
+    height: 32px;
+    width: 32px;
+  }
+}
+.answer-part {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.hr-line {
+  border: 1px solid #d7dae6;
+}
+.answer {
+  color: #9aa5b1;
+  font-size: 26px;
+  font-weight: 400;
+}
